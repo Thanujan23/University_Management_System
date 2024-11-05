@@ -132,7 +132,7 @@ if (isset($_POST['submit_salary'])) {
 <body>
 
 <div id="sidebar">
-    <h2>Admin Panel</h2>
+    <h2>Admin Pane</h2>
     <a href="#" onclick="loadDashboard()">Dashboard</a>
     <a href="javascript:void(0);" onclick="loadStudentDetails()">Student details</a>
     <a href="javascript:void(0);" onclick="loadLecturerDetails()">Lecturer details</a>
