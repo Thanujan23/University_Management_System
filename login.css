@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('image/pexels-pixabay-256455.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Add this to your existing CSS code */
+.container {
+    margin-right: 30%;
+    background-color: #fff; /* Fallback background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 370px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#checkbox {
+    margin-right: 10px;
+}
+
+#submit {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.dha {
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */
+.social-icons .fb-icon img {
+    max-width: 50px; /* Adjust the size as needed */
+    height: auto;
+}
+
+.re{
+    margin-right: 100px;
+}

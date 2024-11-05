@@ -1,0 +1,324 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+    margin: 0;
+    /* display: flex; */
+    /* justify-content: center;
+      align-items: center; */
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    background-color: aliceblue;
+  
+    backdrop-filter: blur(50px);
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+  
+    margin-left: 25%;
+    margin-bottom: 50%;
+    margin-top: 10%;
+  }
+  
+  
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+  } 
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.6%;
+    justify-content: space-between;
+    max-width: 100%;
+    position: fixed; /* Set the header to fixed position */
+    z-index: 1000; /* Set a high z-index to ensure it's above other content */
+    background: linear-gradient(62deg, rgba(219, 119, 119, 1) 0%, rgba(255, 234, 95, 1) 100%);
+    padding: 10px;
+    margin-bottom: 20px;
+
+    
+
+    
+    background: linear-gradient(62deg, rgba(219,119,119,1) 0%, rgba(255,234,95,1) 100%);
+    
+}
+/* Add a class for a transparent background when scrolling */
+header.scrolled {
+    background: rgba(219, 119, 119, 0.8);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+ 
+
+.logo-container img{
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.logo {
+ 
+
+    height: 50px;
+    margin-top: -20px;
+    margin-right: 10%;
+}
+
+.university-name {
+
+
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+    margin-top: -20px;
+    margin-left: 60px;
+    display: flex;
+    position: absolute;
+}
+
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    display: flex;
+    margin-left: 20px;
+}
+
+nav li {
+    margin: 0 30px;
+    font-family: 'Georgia', Sans-serif	; /* Replace 'YourFont' with your preferred font-family */
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.regi {
+    margin-left:210px;
+    font-size: medium;
+    background-color:rgba(0, 255, 255, 0.632); /* Button background color */
+    color: blue; /* Button text color */
+    padding: 5px 5px; /* Adjust padding as needed */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+    font-family: 'Courier New', Courier, monospace	; /* Replace 'YourFont' with your preferred font-family */
+    font-size: small; /* Adjust the font size as needed */
+}
+
+.regi:hover {
+    background-color: #2980b9; /* Change background color on hover */
+}
+  
+  .profile-photo {
+    border: 3px solid #007BFF;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 20px;
+  }
+  
+  .profile-actions {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    min-width: 120px;
+  }
+  
+  .update-btn {
+    background-color: #28a745;
+  }
+  
+  .logout-btn {
+    background-color: #007BFF;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .btn:hover {
+    filter: brightness(0.9);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  nav {
+    box-sizing: border-box;
+  }
+  
+  
+  .logo {
+    background: -webkit-linear-gradient(0deg,
+        rgba(203, 12, 120, 0.8901611670058649) 0%,
+        rgba(227, 6, 42, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Audiowide", cursive;
+    font-family: "Young Serif", serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 35px;
+    letter-spacing: 1.8px;
+  }
+  
+  li.a.button {
+    font-family: "Audiowide", cursive;
+    font-weight: 300;
+    color: rgb(242, 243, 244);
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .head1 {
+    display: flex;
+    justify-content: space-between;
+  
+    padding-top: 0px;
+    border: #fff;
+    /* margin-left: 35%; */
+  }
+  
+  .nav_link1 {
+    list-style: none;
+    font-size: 13px;
+    font-family: "Audiowide", cursive;
+    padding-right: 0px;
+    font-weight: 600;
+    margin-top: -2vh;
+    letter-spacing: 1px;
+  }
+  
+  .nav_link1 li {
+    display: inline-block;
+    padding: 30px;
+    color: black;
+  }
+  
+  .nav_link1 li a.navii:hover {
+    border-left: solid 3px #a52a2a;
+    border-right: solid 3px #a52a2a;
+    padding: 1px 6px;
+    color: black;
+    transition: 0.3s;
+  }
+  
+  .nav_link1 li a {
+    line-height: 60px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .nav_link1 i {
+    margin-bottom: 1px;
+  }
+  
+  .nav_btn:hover {
+    background-color: #ffebcd;
+    color: black;
+    transition: 0s;
+    border-width: 4px;
+  }
+  
+  .nav_btn {
+    font-weight: 500;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-family: "Exo", sans-serif;
+    font-family: "Kaushan Script", cursive;
+    font-family: "Young Serif", serif;
+    background-color: white;
+    color: black;
+    border: 3px solid #b22222;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .profile-photo {
+    border: 3px solid #007BFF;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;  /* Ensure the image is displayed as a block element */
+}
+
+ .container {
+    max-width: 600px;
+    background-color: aliceblue;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 10px 14px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 50%;
+    margin-top: 10%;
+    position: relative;  /* Added this property to allow positioning of the image */
+ }
+
+
+/* Additional styles for the image container */
+.profile-photo-container {
+    position: absolute;
+    top: -75px; /* Adjust this value to position the image container */
+    left: 50%;
+    transform: translateX(-50%);
+}
